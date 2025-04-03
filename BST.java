@@ -120,7 +120,7 @@ class BST {
 
         System.out.println();
 
-        //Vegins search for key 89
+        //Begins search for key 89
         foundNode = tree.search(89);
         if (foundNode != null) {
         	System.out.printf("Found node with key = %d.%n", foundNode.key);
